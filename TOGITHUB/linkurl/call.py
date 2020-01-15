@@ -1,0 +1,10 @@
+import urllib.request as rt
+r=rt.urlopen("https://www.ncu.edu.tw/")
+print("on link" )
+#r.read()
+print("1.網址:",r.geturl())
+print("2.讀取狀態:",r.status)
+print("3.表頭:",r.getheaders())
+cont=r.read()
+print("4.網頁資料BODY",cont)
+print("5.字串化",cont.decode())

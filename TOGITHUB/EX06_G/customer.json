@@ -1,0 +1,8 @@
+{
+  "cust_id":1,
+  "name": "tim",
+  "accounts": [
+    {"acc_id":1,"cust_id":1,"balance":1000},
+    {"acc_id":2,"cust_id":1,"balance":2000}
+  ]
+}

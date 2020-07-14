@@ -14,7 +14,7 @@ import os
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 #--------------------------資料夾--------------------------------
 today =(datetime.datetime.now()+datetime.timedelta(days=7)).strftime("%m_%d")
-path = r"C:/Users/USER/Desktop/server/"+today+"keras_3R"
+path = today+"keras_3R"
 if not os.path.isdir(path):
     os.mkdir(path)
 #--------------------------SQL取資料-------------------------------------

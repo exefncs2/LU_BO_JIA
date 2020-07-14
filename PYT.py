@@ -61,7 +61,6 @@ print(model.state_dict())
 
 from torch.utils.data import Dataset
 
-
 class SLRDataset(Dataset):
     def __init__(self, x_tensor, y_tensor):
         self.x = x_tensor

@@ -66,7 +66,7 @@ for i in range(260):
     tr()
 
 today =(datetime.datetime.now()+datetime.timedelta(days=1)).strftime("%m_%d")
-path = r"C:/Users/USER/Desktop/server/"+today+"Tensor_3R"
+path = today+"Tensor_3R"
 if not os.path.isdir(path):
     os.mkdir(path)
 skip=200

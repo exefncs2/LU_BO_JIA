@@ -6,7 +6,6 @@ import tensorflow as tf
 from keras import callbacks
 from keras.layers import Dense, Activation, Dropout
 from keras.models import Sequential
-
 import matplotlib.pyplot as plt
 with open("data.txt","r+",encoding="utf-8") as f:
     data = f.read().split("\n")

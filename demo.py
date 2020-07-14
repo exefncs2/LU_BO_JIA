@@ -1,5 +1,4 @@
 import random
-
 from pandas import DataFrame
 from sklearn.discriminant_analysis import LinearDiscriminantAnalysis, QuadraticDiscriminantAnalysis
 from sklearn.ensemble import RandomForestClassifier, ExtraTreesClassifier, BaggingClassifier, \
